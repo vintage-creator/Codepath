@@ -1,0 +1,34 @@
+body { background-color: white; }
+
+/* Scrollable tree container */
+#tree-container {
+  width: 100%;
+  height: 600px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* General node styling */
+.node {
+  border: 2px solid #007bff;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Colors for different types */
+.directory {
+  border-color: #28a745;
+  font-weight: bold;
+}
+.file {
+  border-color: #dc3545;
+}
+.function {
+  border-color: #ffc107;
+  font-style: italic;
+}
